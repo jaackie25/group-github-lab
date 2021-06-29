@@ -1,8 +1,18 @@
-const AboutData = [  { 
+import ryan from './image/ryan.jpeg'
+
+const aboutData = [  { 
 
   name: 'ryan kim',
+<<<<<<< HEAD
   blurb: 'i am ryan'
 }
+=======
+  blurb: 'i am ryan',
+  img: 
+  <img className="portImage" src={ryan} alt='ryan'
+  />
+},
+>>>>>>> c182a9411bc322be99918a313e0c5ba2953180eb
 
 ][
 {
@@ -12,4 +22,4 @@ const AboutData = [  {
 }
 ]
 
-export default AboutData
+export default aboutData
