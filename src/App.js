@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import About from './components/About'
-import aboutData from './aboutData'
+import AboutData from './AboutData'
 
 import {
   BrowserRouter as Router, // alias BrowserRouter as Router
@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Route exact 
         path='/'
-        render={() => <About aboutData={aboutData}/>}
+        render={() => <About AboutData={AboutData}/>}
         />
       </Router>
     </div>
