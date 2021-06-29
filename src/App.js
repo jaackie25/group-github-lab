@@ -1,6 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import About from './components/About'
+import AboutData from './AboutData'
+
+import {
+  BrowserRouter as Router, // alias BrowserRouter as Router
+  Route,
+
+} from 'react-router-dom'
 
 function App() {
   return (
