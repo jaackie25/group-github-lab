@@ -1,12 +1,14 @@
-const AboutData = [  { 
+import ryan from './image/ryan.jpeg'
+
+const aboutData = [  { 
 
   name: 'ryan kim',
   blurb: 'i am ryan',
   img: 
-  // <img className="portImage" src={golfgame} alt='golf'
+  <img className="portImage" src={ryan} alt='ryan'
   />
 },
 
 ]
 
-export default AboutData
+export default aboutData

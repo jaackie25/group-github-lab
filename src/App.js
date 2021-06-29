@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import About from './components/About'
-import AboutData from './AboutData'
+import aboutData from './aboutData'
 
 import {
   BrowserRouter as Router, // alias BrowserRouter as Router
@@ -13,7 +13,12 @@ function App() {
   return (
     <div className="App">
       <h1>Hello, this is our team</h1>
-      <About />
+      <Router>
+        <Route exact 
+        path='/'
+        render={() => <About aboutData={aboutData}/>}
+        />
+      </Router>
     </div>
   );
 }
