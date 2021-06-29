@@ -5,6 +5,9 @@ export default function About() {
       ryan,Jackie
 
       ryan
+
+      andie
+
       matthew
 
     </div>
