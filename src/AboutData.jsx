@@ -1,11 +1,11 @@
-import ryan from './image/ryan.jpeg'
+import rk from './image/ryan.jpeg'
 
 const aboutData = [  { 
 
   name: 'ryan kim',
   blurb: 'i am ryan',
   img: 
-  <img className="portImage" src={ryan} alt='ryan'
+  <img className="portImage" src={rk} alt='ryan'
   />
 },
 
