@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import about from './components/About'
+import About from './components/About'
 
 function App() {
   return (
     <div className="App">
-    
+      <h1>Hello, this is our team</h1>
+      <About />
     </div>
   );
 }
